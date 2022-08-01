@@ -86,7 +86,7 @@ class Solution:
         Arguments:
             character: A character that will be enqueued to queue.
         """
-        if front = -1:
+        if front == -1:
             font = 0
             self.queue.append(character)
             rear = rear-1
@@ -109,7 +109,7 @@ class Solution:
         Returns:
           The data that is dequeued if the queue is not empty.
         """
-        if front = -1 and front>rear:
+        if front == -1 and front>rear:
             self.queue.pop(front)
         # Write your code here
 
