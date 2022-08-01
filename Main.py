@@ -64,7 +64,7 @@ class Solution:
         Returns:
           True if it is full, else returns False.
         """
-        if rear = size-1 and front == rear:
+        if rear == size-1 and front == rear:
             return true 
         else:
             return false
